@@ -240,7 +240,7 @@ export default function Home() {
           
           <Box sx={{ borderTop: 1, borderColor: 'grey.700', mt: 4, pt: 4, textAlign: 'center', color: 'grey.400' }}>
             <Typography variant="body2">
-              © 2024 ScholarSync - Advanced Research Project Discovery Platform
+              © 2025 ScholarSync - Advanced Research Project Discovery Platform
             </Typography>
             <Typography variant="caption" sx={{ mt: 1, display: 'block' }}>
               Built with ❤️ for researchers, academics, and innovators worldwide
