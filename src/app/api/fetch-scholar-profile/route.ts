@@ -43,9 +43,11 @@ export async function POST(request: NextRequest) {
     // Fetch the Scholar profile page
     const response = await fetch(profileUrl, {
       headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-      }
+        'User-Agent':
+          'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/114.0.0.0 Safari/537.36',
+      },
     });
+
 
     if (!response.ok) {
       return NextResponse.json({ error: 'Failed to fetch Scholar profile' }, { status: 404 });

@@ -41,7 +41,7 @@ export const fetchScholarProfile = createAsyncThunk(
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({ profileUrl }),
-      });
+      }); 
 
       if (!response.ok) {
         throw new Error('Failed to fetch Scholar profile');
