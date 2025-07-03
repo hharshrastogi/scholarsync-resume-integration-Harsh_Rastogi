@@ -4,7 +4,7 @@ A full-stack Next.js application that integrates resume parsing and Google Schol
 
 ## 🚀 Live Demo
 
-The application is running at: **http://localhost:3001**
+The application is running at: **https://scholarsync-resume-integration-harsh-rastogi-nqp8oo6qq.vercel.app/**
 
 ## 📋 Features
 
