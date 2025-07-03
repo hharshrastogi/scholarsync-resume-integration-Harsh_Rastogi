@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextRequest} from 'next/server';
 import { POST } from '@/app/api/parse-resume/route';
 
 // Mock the pdf-parse library
