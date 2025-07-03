@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "types": ["cypress", "cypress-plugin-tab"],
     "target": "ES2017",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,

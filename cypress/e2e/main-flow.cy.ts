@@ -44,8 +44,10 @@ describe('ScholarSync Main Application Flow', () => {
     
     // Should show HTML5 validation error
     cy.get('input[placeholder*="scholar.google.com"]').then(($input) => {
-      expect($input[0].validity.valid).to.be.false;
+      const input = $input[0] as HTMLInputElement;
+      expect(input.validity.valid).to.be.false;
     });
+    
   });
 
   it('displays loading state correctly', () => {

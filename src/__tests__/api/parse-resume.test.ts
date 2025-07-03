@@ -1,5 +1,6 @@
 import { NextRequest} from 'next/server';
 import { POST } from '@/app/api/parse-resume/route';
+import pdfParse from 'pdf-parse';
 
 // Mock the pdf-parse library
 jest.mock('pdf-parse', () => {
@@ -185,7 +186,6 @@ describe('/api/parse-resume', () => {
 
   test('handles malformed resume text gracefully', async () => {
     // Mock pdf-parse to return minimal/malformed text
-    const pdfParse = require('pdf-parse');
     pdfParse.mockResolvedValueOnce({
       text: 'This is not a proper resume format'
     });

@@ -1,3 +1,5 @@
+import 'cypress-plugin-tab';
+
 /// <reference types="cypress" />
 
 // Custom command to upload a file
